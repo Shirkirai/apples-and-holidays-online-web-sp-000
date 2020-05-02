@@ -79,7 +79,6 @@ def all_supplies_in_holidays(holiday_hash)
         end
       end
       puts last_array.join(" , ")
-
     end
   end
 end
