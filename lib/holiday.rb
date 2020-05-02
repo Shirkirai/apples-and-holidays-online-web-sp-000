@@ -78,7 +78,6 @@ def all_supplies_in_holidays(holiday_hash)
           last_array << x.capitalize!
           last_array.join(" ")
         end
-      puts "#{last_array}: #{supply}"
     end
   end
 end
