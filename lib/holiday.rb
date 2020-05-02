@@ -78,6 +78,7 @@ def all_supplies_in_holidays(holiday_hash)
           last_array << x.capitalize!
         end
       specific_holiday = last_array.join(" ")
+      supply = supply.join(" , ")
     end
   end
 end
