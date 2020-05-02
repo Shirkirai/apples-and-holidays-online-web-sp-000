@@ -75,7 +75,10 @@ def all_supplies_in_holidays(holiday_hash)
       array = holiday.to_s.split("_")
       last_array = []
         array.each do |x|
-          last_array << x.
+          last_array << x.capitalize!
+        end
+      end
+      puts last_array.join(" ")
 
     end
   end
