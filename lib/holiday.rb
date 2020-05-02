@@ -94,6 +94,7 @@ def all_holidays_with_bbq(holiday_hash)
         array = []
         array << specific_holiday
       end
+      array
     end
   end
 end
