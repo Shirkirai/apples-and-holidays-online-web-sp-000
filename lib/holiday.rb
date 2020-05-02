@@ -94,6 +94,7 @@ def all_holidays_with_bbq(holiday_hash)
       if supplies == "BBQ"
         array << specific_holiday
       end
+      puts array
     end
   end
 end
