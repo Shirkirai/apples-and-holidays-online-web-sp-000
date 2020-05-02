@@ -91,7 +91,8 @@ def all_holidays_with_bbq(holiday_hash)
       array = []
       if supplies.include?("BBQ") == true
         array << specific_holiday
-      return array
+        return array
+      end
   end
 end
   # return an array of holiday names (as symbols) where supply lists
